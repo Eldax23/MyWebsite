@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #262626;
+}
+
+.container {
+  position: relative;
+}
+
+nav {
+  font-family: sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: #fff;
+}
+
+.logo {
+  flex-basis: 10%;
+  padding: 8px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  flex-basis: 75%;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  color: black;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px;
+  display: inline-block;
+}
+
+li:hover {
+  background-color: #707b7c;
+  color: white;
+  transition: 0.3s;
+}
+
+.our {
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 40px 0 10px 0;
+}
+
+.line {
+  width: 40%;
+  left: 3px;
+  height: 2px;
+  background-color: #e84393;
+  position: absolute;
+  top: 130px;
+  margin-bottom: 50px;
+}
+
+.line2 {
+  width: 40%;
+  height: 2px;
+  background-color: #e84393;
+  position: absolute;
+  left: 60%;
+  top: 130px;
+  margin-bottom: 3px;
+}
+
+.line3 {
+  width: 40%;
+  left: 3px;
+  height: 2px;
+  background-color: #e84393;
+  position: absolute;
+  top: 524px;
+  margin-top: 20px;
+}
+
+ .line4{
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    background-color: #e84393;
+    left: 60%;
+    top: 49%;
+    margin-top: 55px;
+} 
+
+/* .our::after{
+    content: "3";
+    width: 5000px;
+    height: 2px;
+    background-color: #e84393;
+} */
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.box {
+  border-radius: 6px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 4px solid black;
+}
+
+.img1,
+.img2,
+.img3 {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  border: 6px solid #7f8c8d;
+  background-size: cover;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url(./pexels-tranmautritam-251225.png);
+}
+
+.img2 {
+  background-image: url(./pexels-sharon-mccutcheon-1209843.jpg);
+}
+
+.img3 {
+  background-image: url(./pexels-anna-nekrashevich-6801648.jpg);
+}
+
+div .text {
+  font-family: "Poppins", sans-serif;
+  line-height: 48px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.lorem {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  align-content: center;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.box:hover {
+  background-color: #e84393;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.bundlestext {
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+}
+
+.bundles {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.Basic,
+.Pro,
+.Master {
+  width: calc((100% / 3) - 100px);
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border-radius: 3px;
+  border-bottom: 4px solid black;
+}
+
+.Basic:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.Pro:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.Master:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.basic {
+  font-family: "Montserrat", sans-serif;
+}
+
+.space{
+    width: 200px;
+    height: 3px;
+    background-color: #e84393;
+}
+
+
+.price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+.storage{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.user{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
