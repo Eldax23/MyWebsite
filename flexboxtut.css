@@ -55,26 +55,30 @@ li:hover {
   text-transform: capitalize;
   text-align: center;
   margin: 40px 0 10px 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .line {
   width: 40%;
-  left: 3px;
+  /* left: 3px; */
   height: 2px;
   background-color: #e84393;
-  position: absolute;
+  margin-top: 15px;
+  /* position: absolute;
   top: 130px;
-  margin-bottom: 50px;
+  margin-bottom: 50px; */
 }
 
 .line2 {
   width: 40%;
   height: 2px;
   background-color: #e84393;
-  position: absolute;
+  margin-top: 15px;
+  /* position: absolute;
   left: 60%;
   top: 130px;
-  margin-bottom: 3px;
+  margin-bottom: 3px; */
 }
 
 .line3 {
@@ -82,19 +86,21 @@ li:hover {
   left: 3px;
   height: 2px;
   background-color: #e84393;
-  position: absolute;
+  /* position: absolute;
   top: 524px;
-  margin-top: 20px;
+  margin-top: 20px; */
+  margin-top: 15px;
 }
 
  .line4{
     width: 40%;
     height: 2px;
-    position: absolute;
+    /* position: absolute; */
     background-color: #e84393;
-    left: 60%;
+    /* left: 60%;
     top: 49%;
-    margin-top: 55px;
+    margin-top: 55px; */
+    margin-top: 15px;
 } 
 
 /* .our::after{
@@ -179,6 +185,8 @@ div .text {
   text-align: center;
   margin-top: 40px;
   position: relative;
+  display: flex;
+  justify-content: space-around;
 }
 
 .bundles {
