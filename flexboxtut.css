@@ -207,7 +207,7 @@ div .text {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  border-radius: 3px;
+  border-radius: 8px;
   border-bottom: 4px solid black;
 }
 
@@ -242,6 +242,10 @@ div .text {
     width: 200px;
     height: 3px;
     background-color: #e84393;
+}
+
+.space:hover{
+  background-color: black;
 }
 
 
